@@ -1,7 +1,8 @@
 import React from "react";
+import ButtonPage from "./pages/ButtonPage";
 
 function App() {
-  return <h1>App</h1>;
+  return <ButtonPage />;
 }
 
 export default App;
