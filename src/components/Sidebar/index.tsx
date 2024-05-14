@@ -6,6 +6,7 @@ function Sidebar() {
     { label: "Accordion", path: "/accordion" },
     { label: "Dropdown", path: "/dropdown" },
     { label: "Buttons", path: "/buttons" },
+    { label: "Modal", path: "/modal" },
   ];
   return (
     <Stack tokens={{ childrenGap: 10 }}>
