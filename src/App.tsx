@@ -5,6 +5,7 @@ import ButtonPage from "./pages/ButtonPage";
 import Route from "./components/Route";
 import Sidebar from "./components/Sidebar";
 import ModalPage from "./pages/ModalPage";
+import TablePage from "./pages/TablePage";
 
 function App() {
   return (
@@ -32,6 +33,11 @@ function App() {
           <Stack.Item>
             <Route path={"/modal"}>
               <ModalPage />
+            </Route>
+          </Stack.Item>
+          <Stack.Item>
+            <Route path={"/table"}>
+              <TablePage />
             </Route>
           </Stack.Item>
         </Stack>

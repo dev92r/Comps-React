@@ -1,4 +1,4 @@
-import { Icon, Modal, PrimaryButton, Stack } from "@fluentui/react";
+import { PrimaryButton, Stack } from "@fluentui/react";
 import { useState } from "react";
 import CustomModal from "../components/Modal";
 

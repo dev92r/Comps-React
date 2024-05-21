@@ -7,6 +7,7 @@ function Sidebar() {
     { label: "Dropdown", path: "/dropdown" },
     { label: "Buttons", path: "/buttons" },
     { label: "Modal", path: "/modal" },
+    { label: "Table", path: "/table" },
   ];
   return (
     <Stack tokens={{ childrenGap: 10 }}>

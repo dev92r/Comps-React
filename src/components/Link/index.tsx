@@ -7,14 +7,22 @@ export interface LinkProps {
 }
 
 function Link({ to, children }: LinkProps) {
-  const { navigate } = useNavigationContext();
+  const { navigate, currentPath } = useNavigationContext();
   const handleClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
     event.preventDefault();
     navigate(to);
   };
 
   return (
-    <a onClick={handleClick} href={to}>
+    <a
+      style={{
+        fontWeight: currentPath === to ? "bold" : "normal",
+        textDecoration: "none",
+        color: "rgb(0,55,85)",
+      }}
+      onClick={handleClick}
+      href={to}
+    >
       {children}
     </a>
   );
