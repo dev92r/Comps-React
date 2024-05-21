@@ -1,4 +1,4 @@
-import { List, Stack } from "@fluentui/react";
+import { Stack } from "@fluentui/react";
 import { FruitsItems, FruitsItemsConfig } from "../../Model/Fruits";
 
 interface props {
