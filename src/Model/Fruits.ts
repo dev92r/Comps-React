@@ -9,4 +9,6 @@ export interface FruitsItems {
 export interface FruitsItemsConfig {
     label: string,
     render: (data: FruitsItems) => ReactNode;
+    sortValue?:(data: FruitsItems) => string | number;
+    header?: () => ReactNode;
 }
